@@ -15,4 +15,20 @@ public class habitacion extends estancias {
 		PuertasArmarioEmpotrado = puertasArmarioEmpotrado;
 		AccesoABaño = accesoABaño;
 	}
+
+	public int getPuertasArmarioEmpotrado() {
+		return PuertasArmarioEmpotrado;
+	}
+
+	public void setPuertasArmarioEmpotrado(int puertasArmarioEmpotrado) {
+		PuertasArmarioEmpotrado = puertasArmarioEmpotrado;
+	}
+
+	public boolean isAccesoABaño() {
+		return AccesoABaño;
+	}
+
+	public void setAccesoABaño(boolean accesoABaño) {
+		AccesoABaño = accesoABaño;
+	}
 }
