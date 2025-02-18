@@ -24,6 +24,36 @@ public abstract class estancias {
 		this.puertas = puertas;
 		this.ventanas = ventanas;
 	}
-	
-	
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public int getMetros2() {
+		return metros2;
+	}
+
+	public void setMetros2(int metros2) {
+		this.metros2 = metros2;
+	}
+
+	public int getPuertas() {
+		return puertas;
+	}
+
+	public void setPuertas(int puertas) {
+		this.puertas = puertas;
+	}
+
+	public int getVentanas() {
+		return ventanas;
+	}
+
+	public void setVentanas(int ventanas) {
+		this.ventanas = ventanas;
+	}
 }
