@@ -10,9 +10,9 @@ public abstract class estancias {
 	//casa(main)(A)
 	//hall (R)
 	//cocina (R)
-	//salon (R)
+	//salon (A)
 	//habitacion (A)
-	//baño (A)
+	//baño (R)
 	protected String nombre;
 	protected int metros2;
 	protected int puertas;
